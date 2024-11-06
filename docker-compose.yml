@@ -6,7 +6,7 @@ networks:
 
 services:
   pocketbase:
-    build: ./ob
+    build: ./pb
     restart: unless-stopped
     container_name: pocketbase
     ports:
